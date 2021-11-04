@@ -34,7 +34,7 @@
             }?>
         </tbody>
     </table>
-    <a href="../index.html" class="btn btn-danger btn-lg">Logout</a>
+    <a href="../action-logout.php" class="btn btn-danger btn-lg">Logout</a>
     <a href="barchartsjs.php" class="btn btn-warning btn-lg">Graph</a>
 </body>
 </html>
