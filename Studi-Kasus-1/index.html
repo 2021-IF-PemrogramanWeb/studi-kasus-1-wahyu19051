@@ -20,19 +20,19 @@
     <link href="assets/style.css" rel="stylesheet">
 </head>
 <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="action-login.php" method="post">
         <img class="mb-4" src="assets/img/logo.png" width="90" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Please login</h1>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="username" id="inputUsername" class="form-control" placeholder="Username" required>
+        <input type="username" id="inputUsername" class="form-control" name="username" placeholder="Username" required>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
         </div>
-        <a href="connect/table.php" class="btn btn-lg btn-primary btn-block" type="submit">Login</a>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
         <p class="mt-5 mb-3 text-muted">2021</p>
     </form>
 </body>
