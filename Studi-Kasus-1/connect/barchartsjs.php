@@ -41,7 +41,7 @@
 			data: {
                 labels: [<?php echo $Nomer; ?>],
                 datasets: [{
-                    label:'Trend Of Reason',
+                    label:'Reason',
                     data: [<?php echo $Reason; ?>]
                 }]
             },
